@@ -37,28 +37,35 @@ def print_student_name_and_id(data_structure):
 
     
 # TODO: Step 5 - Function that adds pizza toppings to data structure
-def add_pizza_toppings(about_me, toppings):{
-    'add_pizza_toppings' : [
-        'Sausage',
-        'Pepperoni',
-        'olives'
-    ],
-    
-}
-
- return
+def add_pizza_toppings(about_me, toppings):
+    for topping in toppings:
+         about_me['Pizza_toppings'].append(topping)
+  
+    return
 
 # TODO: Step 6 - Function that prints bullet list of pizza toppings
-def print_pizza_toppings(about_me):
-    return
+ def print_pizza_toppings(about_me):
+    def print_pizza_toppings(about_me):
+     for topping in about_me:
+        if about_me[topping]:
+            print(topping)
+
 
 # TODO: Step 7 - Function that prints comma-separated list of movie genres
 def print_movie_genres(about_me):
-    return 
+      def print_movie_genres(about_me):
+       genres = []
+      for movie in about_me:
+        if isinstance(about_me[movie], list):
+            genres.extend(about_me[movie])
+      print(genres)
+      return 
 
 # TODO: Step 8 - Function that prints comma-separated list of movie titles
 def print_movie_titles(movie_list):
-    return
+    def print_movie_titles(movie_list):
+     print(', '.join(movie_list))
+
     
 if __name__ == '__main__':
     main()
