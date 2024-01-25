@@ -38,7 +38,7 @@ def print_student_name_and_id(data_structure):
     
 # TODO: Step 5 - Function that adds pizza toppings to data structure
 def add_pizza_toppings(about_me, toppings):{
-    'toppings' : [
+    'add_pizza_toppings' : [
         'Sausage',
         'Pepperoni',
         'olives'
